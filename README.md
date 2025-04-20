@@ -2,28 +2,28 @@
 
 A modern, responsive, and multilingual landing page built using **React** and **Vite**. This project showcases Blankpoint's profile, services, and featured portfolio projects.
 
-## 🌐 Live Demo
+## Live Demo
 
-🔗 [Visit the website](https://github.com/markhadi/blankpoint-web.git)
-
----
-
-## 🚀 Features
-
-- 🌍 **Multilingual** (Bahasa Indonesia & English)
-- ⚡ Built with **Vite** for blazing fast development and build speed
-- 🎯 Structured project showcase: _Highlight Projects_ & _Other Projects_
-- 💻 Responsive design for all devices
+🔗 [Visit the website]([https://github.com/markhadi/blankpoint-web.git](https://blankpoint-web.vercel.app/))
 
 ---
 
-## 🧰 Tech Stack
+## Features
+
+- **Multilingual** (Bahasa Indonesia & English)
+- Built with **Vite** for blazing fast development and build speed
+- Structured project showcase: _Highlight Projects_ & _Other Projects_
+- Responsive design for all devices
+
+---
+
+## Tech Stack
 
 - **React**
 - **Vite**
 - **TailwindCSS**
 
-## 📦 Installation & Development
+## Installation & Development
 
 ```bash
 # Clone the repo
