@@ -29,7 +29,7 @@ export const Service = () => {
       id="serivces"
       className="w-full flex justify-center items-center relative bg-[#F9F9FF] xl:mb-[224px]"
     >
-      <ul className="w-full max-w-[1600px] px-4 lg:px-10 py-10 xl:py-0 gap-3 xl:gap-5 grid grid-cols-1 md:grid-cols-2 justify-items-center xl:absolute xl:top-[50%] xl:left-[50%] xl:-translate-x-1/2 xl:-translate-y-1/2 xl:flex xl:justify-between">
+      <ul className="w-full max-w-[1600px] px-4 lg:px-10 py-10 pb-0 xl:py-0 gap-3 xl:gap-5 grid grid-cols-1 md:grid-cols-2 justify-items-center xl:absolute xl:top-[50%] xl:left-[50%] xl:-translate-x-1/2 xl:-translate-y-1/2 xl:flex xl:justify-between">
         {services.map((service, index) => (
           <ServiceItem
             key={index}

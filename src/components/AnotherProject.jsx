@@ -70,6 +70,7 @@ export const AnotherProject = () => {
           level={2}
           variant="section"
           dataAos="fade-up"
+          className="mt-4"
         >
           {title[1].title}
         </Heading>
