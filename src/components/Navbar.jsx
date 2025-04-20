@@ -7,11 +7,11 @@ export const Navbar = () => {
 
   return (
     <section className={`fixed top-0 z-50 w-full bg-transparent flex items-center justify-center transition-all duration-300 ${isSticky ? 'shadow-md bg-white' : 'top-5'}`}>
-      <div className="w-full max-w-[1600px] px-4 lg:px-10">
-        <div
-          data-aos="fade-down"
-          className="w-full px-5 py-4 rounded-[20px] bg-white flex gap-5 justify-between"
-        >
+      <div
+        data-aos="fade-down"
+        className="w-full max-w-[1600px] px-4 lg:px-10"
+      >
+        <div className={`w-full py-4 rounded-[20px] bg-white flex gap-5 justify-between transition-all duration-300 ${isSticky ? 'px-0' : 'px-5'}`}>
           <a href="#home">
             <img
               src="/logo.png"
