@@ -13,8 +13,8 @@ import 'aos/dist/aos.css';
 export default function App() {
   useEffect(() => {
     AOS.init({
-      duration: 1000,
-      offset: 80,
+      duration: 800,
+      offset: 130,
     });
   }, []);
 
