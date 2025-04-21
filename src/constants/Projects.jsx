@@ -39,8 +39,8 @@ export const highlightProjectsData = lang => [
         ? "Mobile and web applications for the management of the modern Islamic boarding school Ma'had Bakkah Martapura. Where the application is used for public services for monitoring purposes from parents of students and as internal management for school employees starting from attendance, submission, permits, leave to financial systems."
         : 'Aplikasi mobile dan web untuk management sekolah pesantren modern Ma’had Bakkah Martapura. Dimana aplikasi digunakan untuk layanan publik untuk keperluan monitor dari orangtua siswa dan sebagai internal management bagi pegawai sekolah mulai dari absensi, pengajuan, perizinan, cuti hingga system keuangan.',
     links: [
-      { href: 'https://blanksys-pos.vercel.app/', text: 'View Demo', icon: EyeOutline, variant: 'demo' },
-      { href: 'https://blanksys-pos.vercel.app/', text: 'Case study', icon: NotebookOutline, variant: 'study' },
+      { href: 'https://play.google.com/store/apps/details?id=io.kodular.ferdausalamsyah.Bakkah_Mobile_PUBLIC_V2&hl=id', text: 'View Demo', icon: EyeOutline, variant: 'demo' },
+      { href: 'https://bakkah.sch.id/', text: 'Case study', icon: NotebookOutline, variant: 'study' },
     ],
   },
 ];
@@ -58,8 +58,8 @@ export const anotherProjectsData = lang => [
     title: 'Devoverflow',
     description: lang === 'en' ? 'Developer & Coder social forum' : 'Forum sosial pengembang dan pembuat kode',
     links: [
-      { href: 'https://link-demo-devoverflow.com', text: 'View Demo', icon: EyeOutline, variant: 'demoSmall' },
-      { href: 'https://link-study-devoverflow.com', text: 'Case study', icon: NotebookOutline, variant: 'studySmall' },
+      { href: 'https://dev-stack-overflow-jokovic.vercel.app/', text: 'View Demo', icon: EyeOutline, variant: 'demoSmall' },
+      { href: 'https://dev-stack-overflow-jokovic.vercel.app/', text: 'Case study', icon: NotebookOutline, variant: 'studySmall' },
     ],
   },
   {
@@ -74,8 +74,8 @@ export const anotherProjectsData = lang => [
     title: 'Citaprasada.com',
     description: lang === 'en' ? 'Architect & construction company profile' : 'Profil perusahaan arsitek & konstruksi',
     links: [
-      { href: 'https://link-demo-citaprasada.com', text: 'View Demo', icon: EyeOutline, variant: 'demoSmall' },
-      { href: 'https://link-study-citaprasada.com', text: 'Case study', icon: NotebookOutline, variant: 'studySmall' },
+      { href: 'https://citaprasada.com/', text: 'View Demo', icon: EyeOutline, variant: 'demoSmall' },
+      { href: 'https://citaprasada.com/', text: 'Case study', icon: NotebookOutline, variant: 'studySmall' },
     ],
   },
   {
@@ -90,8 +90,8 @@ export const anotherProjectsData = lang => [
     title: 'Cotechca',
     description: lang === 'en' ? 'Software agency company profile & Portfolio' : 'Profil & Portofolio Perusahaan Agensi Perangkat Lunak',
     links: [
-      { href: 'https://link-demo-cotechca.com', text: 'View Demo', icon: EyeOutline, variant: 'demoSmall' },
-      { href: 'https://link-study-cotechca.com', text: 'Case study', icon: NotebookOutline, variant: 'studySmall' },
+      { href: 'https://cotechca.netlify.app/', text: 'View Demo', icon: EyeOutline, variant: 'demoSmall' },
+      { href: 'https://cotechca.netlify.app/', text: 'Case study', icon: NotebookOutline, variant: 'studySmall' },
     ],
   },
   {
@@ -106,8 +106,8 @@ export const anotherProjectsData = lang => [
     title: 'Pinkme',
     description: lang === 'en' ? 'Pinkme website' : 'Pinkme website',
     links: [
-      { href: 'https://link-demo-pinkme.com', text: 'View Demo', icon: EyeOutline, variant: 'demoSmall' },
-      { href: 'https://link-study-pinkme.com', text: 'Case study', icon: NotebookOutline, variant: 'studySmall' },
+      { href: 'http://pinkme.com/', text: 'View Demo', icon: EyeOutline, variant: 'demoSmall' },
+      { href: 'http://pinkme.com/', text: 'Case study', icon: NotebookOutline, variant: 'studySmall' },
     ],
   },
 ];

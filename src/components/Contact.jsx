@@ -6,7 +6,7 @@ import { Heading, Paragraph } from './Text';
 
 const ContactCard = ({ icon: Icon, title, info, linkHref, linkText }) => {
   return (
-    <div className="p-5 w-full xl:max-w-[330px] bg-white rounded-[20px] shadow flex flex-col justify-start items-start gap-3 transition-all duration-300 hover:shadow-md hover:bg-gray-50">
+    <div className="p-5 w-full xl:max-w-[330px] bg-white rounded-[20px] shadow flex flex-col justify-start items-start gap-3 transition-all duration-300 hover:shadow-md hover:bg-gray-50 hover:-translate-y-2">
       <div className="p-2 max-w-max flex bg-white rounded-lg shadow-md outline-2 outline-offset-[-2px] outline-[#DADADA]">
         <Icon />
       </div>
