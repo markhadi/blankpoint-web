@@ -4,7 +4,10 @@ import { Heading, Paragraph } from './Text';
 
 const ServiceItem = ({ icon, heading, paragraph }) => {
   return (
-    <div data-aos="fade-up">
+    <div
+      data-aos="fade-up"
+      className="flex"
+    >
       <div className="w-full xl:max-w-[333px] px-4 py-4 xl:py-10 bg-white rounded-lg shadow flex flex-col justify-start items-start gap-3 xl:gap-5 transition-all duration-300 hover:-translate-y-2 hover:bg-gray-50">
         {icon}
         <Heading
