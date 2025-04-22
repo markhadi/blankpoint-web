@@ -4,7 +4,7 @@ A modern, responsive, and multilingual landing page built using **React** and **
 
 ## Live Demo
 
-🔗 [Visit the website]([https://github.com/markhadi/blankpoint-web.git](https://blankpoint-web.vercel.app/))
+🔗 [Visit the website](<[https://github.com/markhadi/blankpoint-web.git](https://blankpoint-web.vercel.app/)>)
 
 ---
 
@@ -35,6 +35,7 @@ cd blankpoint-web
 # Install dependencies
 npm install
 
-# Run the development server
-npm run dev
+# Run the build
+npm run build
+
 ```
