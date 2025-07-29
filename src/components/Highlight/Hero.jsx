@@ -21,7 +21,7 @@ const Hero = () => {
         <img
           src={dummyImg}
           alt="Hero Highlight"
-          className="rounded-2xl max-w-full w-[1200px] h-[611px] object-cover"
+          className="rounded-2xl max-w-full w-[1200px] scale-150 md:scale-100 object-cover"
         />
       </div>
     </section>
