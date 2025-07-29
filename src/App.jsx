@@ -1,14 +1,10 @@
-import './App.css';
-import { useEffect } from 'react';
-import { AboutUs } from './components/AboutUs';
-import { Contact } from './components/Contact';
-import { Footer } from './components/Footer';
-import { Hero } from './components/Hero';
-import { Navbar } from './components/Navbar';
-import { Project } from './components/Project';
-import { Service } from './components/Service';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import { Outlet } from "@tanstack/react-router";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+import "./App.css";
+import { Footer } from "./components/Footer";
+import { Navbar } from "./components/Navbar";
 
 export default function App() {
   useEffect(() => {
@@ -19,14 +15,10 @@ export default function App() {
   }, []);
 
   return (
-    <>
+    <div className="App">
       <Navbar />
-      <Hero />
-      <Service />
-      <AboutUs />
-      <Project />
-      <Contact />
+      <Outlet />
       <Footer />
-    </>
+    </div>
   );
 }
